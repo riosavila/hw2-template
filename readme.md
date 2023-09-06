@@ -3,7 +3,7 @@
 This template repository has the structure I expect to see in all homework assignments.  It is a good idea to fork this repository and use it as a template for your homework assignments.  This will ensure that you have the correct structure and that you have all the files you need to submit your homework.
 
 - root:
-  - **instructions.qmd** and **instructions.pdf** : The instructions for the homework assignment
+  - **instructions_hwx.qmd** and **instructions_hwx.pdf** : The instructions for the homework assignment
   - **data\\** : A folder containing the data used for assignemnt. Required only if data is not available using `frause`, or access with other repository.
   - **do_files\\** : A folder containing the source code for the assignment. 
     This folder should contain a file called `homework.do` that can be run to execute the assignment. It should also contain a file called `homework.log` that contains the output from running `homework.do`.
@@ -14,10 +14,7 @@ This template repository has the structure I expect to see in all homework assig
     This file will be graded.
   - **resources\\**: Figures and tables can be added here, and then referenced in the `homework_x.qmd` file. 
     This should be produced by the `homework_x.qmd` file, and the `homework.do` file.
+  
+This repository also contains an example homework assignment, in folder **example**. One of them relies on `nbstata`, and the other uses the `do-file` output to produce the homework.
 
 You can compile the homework_x.qmd into a html or pdf file, but its not required.
-
-See the rest of the repository for an example.
-
-Also, see that I was able to produce both an html as well as pdf files for both versions of the homeworks.
-
